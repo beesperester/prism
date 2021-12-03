@@ -1,0 +1,62 @@
+<p>Examples for the clike VEX language as defined by SideFX: <a href="https://www.sidefx.com/docs/houdini/vex/lang">VEX
+		Language Reference</a></p>
+
+<h2>User-defined functions</h2>
+<pre><code>int test(int a, b; string c) {
+    if (a > b) {
+        printf(c);
+    }
+}
+function int test(int a, b; string c) {
+    if (a > b) {
+        printf(c);
+    }
+}
+void print(basis b) { 
+    printf("basis: { i: %s, j: %s, k: %s }\n", b.i, b.j, b.k); 
+} 
+void print(matrix m) { 
+    printf("matrix: %s\n", m); 
+} 
+
+basis rotate(basis b; vector axis; float amount) { 
+    matrix m = 1; 
+    rotate(m, amount, axis); 
+    basis result = b; 
+    result.i *= m; 
+    result.j *= m; 
+    result.k *= m; 
+    return result; 
+} 
+void rotate(basis b; vector axis; float amount) { 
+    b = rotate(b, axis, amount); 
+}
+</code></pre>
+
+<h2>Main (context) function</h2>
+<pre><code>surface
+noise_surf(vector clr = {1,1,1}; float frequency = 1;
+			export vector nml = {0,0,0})
+{
+	Cf = clr * (float(noise(frequency * P)) + 0.5) * diffuse(normalize(N));
+	nml = normalize(N)*0.5 + 0.5;
+}
+</code></pre>
+
+<h2>User interface pragmas</h2>
+<pre><code>#pragma opname        noise_surf
+#pragma oplabel        "Noisy Surface"
+
+#pragma label    clr            "Color"
+#pragma label    frequency    "Frequency"
+
+#pragma hint    clr            color
+#pragma range    frequency    0.1 10
+
+surface noise_surf(vector clr = {1,1,1}; float frequency = 1;
+			export vector nml = {0,0,0})
+{
+	Cf = clr * (float(noise(frequency * P)) + 0.5) * diffuse(normalize(N));
+	nml = normalize(N)*0.5 + 0.5;
+}
+</code></pre>
