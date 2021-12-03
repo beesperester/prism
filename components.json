@@ -48,7 +48,15 @@
 		},
 		"markup": {
 			"title": "Markup",
-			"alias": ["html", "xml", "svg", "mathml", "ssml", "atom", "rss"],
+			"alias": [
+				"html",
+				"xml",
+				"svg",
+				"mathml",
+				"ssml",
+				"atom",
+				"rss"
+			],
 			"aliasTitles": {
 				"html": "HTML",
 				"xml": "XML",
@@ -114,7 +122,10 @@
 		},
 		"apex": {
 			"title": "Apex",
-			"require": ["clike", "sql"],
+			"require": [
+				"clike",
+				"sql"
+			],
 			"owner": "RunDevelopment"
 		},
 		"apl": {
@@ -146,7 +157,10 @@
 		},
 		"aspnet": {
 			"title": "ASP.NET (C#)",
-			"require": ["markup", "csharp"],
+			"require": [
+				"markup",
+				"csharp"
+			],
 			"owner": "nauzilus"
 		},
 		"asm6502": {
@@ -171,7 +185,7 @@
 			"owner": "Zinfidel"
 		},
 		"avro-idl": {
-			"title":"Avro IDL",
+			"title": "Avro IDL",
 			"alias": "avdl",
 			"owner": "RunDevelopment"
 		},
@@ -249,7 +263,10 @@
 		"csharp": {
 			"title": "C#",
 			"require": "clike",
-			"alias": ["cs", "dotnet"],
+			"alias": [
+				"cs",
+				"dotnet"
+			],
 			"owner": "mvalipour"
 		},
 		"cpp": {
@@ -265,7 +282,10 @@
 		},
 		"chaiscript": {
 			"title": "ChaiScript",
-			"require": ["clike", "cpp"],
+			"require": [
+				"clike",
+				"cpp"
+			],
 			"owner": "RunDevelopment"
 		},
 		"cil": {
@@ -384,7 +404,10 @@
 		},
 		"ejs": {
 			"title": "EJS",
-			"require": ["javascript", "markup-templating"],
+			"require": [
+				"javascript",
+				"markup-templating"
+			],
 			"owner": "RunDevelopment",
 			"alias": "eta",
 			"aliasTitles": {
@@ -401,12 +424,18 @@
 		},
 		"etlua": {
 			"title": "Embedded Lua templating",
-			"require": ["lua", "markup-templating"],
+			"require": [
+				"lua",
+				"markup-templating"
+			],
 			"owner": "RunDevelopment"
 		},
 		"erb": {
 			"title": "ERB",
-			"require": ["ruby", "markup-templating"],
+			"require": [
+				"ruby",
+				"markup-templating"
+			],
 			"owner": "Golmote"
 		},
 		"erlang": {
@@ -415,7 +444,10 @@
 		},
 		"excel-formula": {
 			"title": "Excel Formula",
-			"alias": ["xlsx", "xls"],
+			"alias": [
+				"xlsx",
+				"xls"
+			],
 			"owner": "RunDevelopment"
 		},
 		"fsharp": {
@@ -624,7 +656,11 @@
 		},
 		"javadoc": {
 			"title": "JavaDoc",
-			"require": ["markup", "java", "javadoclike"],
+			"require": [
+				"markup",
+				"java",
+				"javadoclike"
+			],
 			"modify": "java",
 			"optional": "scala",
 			"owner": "RunDevelopment"
@@ -657,7 +693,11 @@
 		},
 		"jsdoc": {
 			"title": "JSDoc",
-			"require": ["javascript", "javadoclike", "typescript"],
+			"require": [
+				"javascript",
+				"javadoclike",
+				"typescript"
+			],
 			"modify": "javascript",
 			"optional": [
 				"actionscript",
@@ -728,7 +768,10 @@
 		},
 		"kotlin": {
 			"title": "Kotlin",
-			"alias": ["kt", "kts"],
+			"alias": [
+				"kt",
+				"kts"
+			],
 			"aliasTitles": {
 				"kts": "Kotlin Script"
 			},
@@ -746,7 +789,10 @@
 		},
 		"latex": {
 			"title": "LaTeX",
-			"alias": ["tex", "context"],
+			"alias": [
+				"tex",
+				"context"
+			],
 			"aliasTitles": {
 				"tex": "TeX",
 				"context": "ConTeXt"
@@ -755,7 +801,11 @@
 		},
 		"latte": {
 			"title": "Latte",
-			"require": ["clike", "markup-templating", "php"],
+			"require": [
+				"clike",
+				"markup-templating",
+				"php"
+			],
 			"owner": "nette"
 		},
 		"less": {
@@ -777,7 +827,11 @@
 		},
 		"lisp": {
 			"title": "Lisp",
-			"alias": ["emacs", "elisp", "emacs-lisp"],
+			"alias": [
+				"emacs",
+				"elisp",
+				"emacs-lisp"
+			],
 			"owner": "JuanCaicedo"
 		},
 		"livescript": {
@@ -977,7 +1031,10 @@
 		},
 		"phpdoc": {
 			"title": "PHPDoc",
-			"require": ["php", "javadoclike"],
+			"require": [
+				"php",
+				"javadoclike"
+			],
 			"modify": "php",
 			"owner": "RunDevelopment"
 		},
@@ -994,7 +1051,10 @@
 		},
 		"powerquery": {
 			"title": "PowerQuery",
-			"alias": ["pq", "mscript"],
+			"alias": [
+				"pq",
+				"mscript"
+			],
 			"owner": "peterbud"
 		},
 		"powershell": {
@@ -1025,7 +1085,10 @@
 		},
 		"pug": {
 			"title": "Pug",
-			"require": ["markup", "javascript"],
+			"require": [
+				"markup",
+				"javascript"
+			],
 			"optional": [
 				"coffeescript",
 				"ejs",
@@ -1102,8 +1165,11 @@
 		"cshtml": {
 			"title": "Razor C#",
 			"alias": "razor",
-			"require": ["markup", "csharp"],
-			"optional":[
+			"require": [
+				"markup",
+				"csharp"
+			],
+			"optional": [
 				"css",
 				"css-extras",
 				"javascript",
@@ -1113,7 +1179,10 @@
 		},
 		"jsx": {
 			"title": "React JSX",
-			"require": ["markup", "javascript"],
+			"require": [
+				"markup",
+				"javascript"
+			],
 			"optional": [
 				"jsdoc",
 				"js-extras",
@@ -1123,7 +1192,10 @@
 		},
 		"tsx": {
 			"title": "React TSX",
-			"require": ["jsx", "typescript"]
+			"require": [
+				"jsx",
+				"typescript"
+			]
 		},
 		"reason": {
 			"title": "Reason",
@@ -1172,7 +1244,11 @@
 		},
 		"sas": {
 			"title": "SAS",
-			"optional": ["groovy", "lua", "sql"],
+			"optional": [
+				"groovy",
+				"lua",
+				"sql"
+			],
 			"owner": "Golmote"
 		},
 		"sass": {
@@ -1199,7 +1275,10 @@
 		"shell-session": {
 			"title": "Shell session",
 			"require": "bash",
-			"alias": ["sh-session", "shellsession"],
+			"alias": [
+				"sh-session",
+				"shellsession"
+			],
 			"owner": "RunDevelopment"
 		},
 		"smali": {
@@ -1289,13 +1368,19 @@
 		},
 		"t4-cs": {
 			"title": "T4 Text Templates (C#)",
-			"require": ["t4-templating", "csharp"],
+			"require": [
+				"t4-templating",
+				"csharp"
+			],
 			"alias": "t4",
 			"owner": "RunDevelopment"
 		},
 		"t4-vb": {
 			"title": "T4 Text Templates (VB)",
-			"require": ["t4-templating", "vbnet"],
+			"require": [
+				"t4-templating",
+				"vbnet"
+			],
 			"owner": "RunDevelopment"
 		},
 		"tap": {
@@ -1309,7 +1394,10 @@
 		},
 		"tt2": {
 			"title": "Template Toolkit 2",
-			"require": ["clike", "markup-templating"],
+			"require": [
+				"clike",
+				"markup-templating"
+			],
 			"owner": "gflohr"
 		},
 		"textile": {
@@ -1364,7 +1452,10 @@
 		},
 		"unrealscript": {
 			"title": "UnrealScript",
-			"alias": ["uscript", "uc"],
+			"alias": [
+				"uscript",
+				"uc"
+			],
 			"owner": "RunDevelopment"
 		},
 		"uri": {
@@ -1400,6 +1491,11 @@
 			"title": "Verilog",
 			"owner": "a-rey"
 		},
+		"vex": {
+			"title": "VEX",
+			"require": "clike",
+			"owner": "beesperester"
+		},
 		"vhdl": {
 			"title": "VHDL",
 			"owner": "a-rey"
@@ -1410,7 +1506,10 @@
 		},
 		"visual-basic": {
 			"title": "Visual Basic",
-			"alias": ["vb", "vba"],
+			"alias": [
+				"vb",
+				"vba"
+			],
 			"aliasTitles": {
 				"vba": "VBA"
 			},
@@ -1436,7 +1535,11 @@
 		},
 		"wolfram": {
 			"title": "Wolfram language",
-			"alias": ["mathematica", "nb", "wl"],
+			"alias": [
+				"mathematica",
+				"nb",
+				"wl"
+			],
 			"aliasTitles": {
 				"mathematica": "Mathematica",
 				"nb": "Mathematica Notebook"
@@ -1459,7 +1562,11 @@
 		"xml-doc": {
 			"title": "XML doc (.net)",
 			"require": "markup",
-			"modify": ["csharp", "fsharp", "vbnet"],
+			"modify": [
+				"csharp",
+				"fsharp",
+				"vbnet"
+			],
 			"owner": "RunDevelopment"
 		},
 		"xojo": {

@@ -240,6 +240,7 @@
 		"uri": "URI",
 		"url": "URL",
 		"vbnet": "VB.Net",
+		"vex": "VEX",
 		"vhdl": "VHDL",
 		"vim": "vim",
 		"visual-basic": "Visual Basic",

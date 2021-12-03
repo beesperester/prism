@@ -1,0 +1,81 @@
+break;
+bsdf;
+char;
+color;
+const;
+continue;
+do;
+dict;
+else;
+export;
+float;
+for;
+forpoints;
+foreach;
+gather;
+hpoint;
+if;
+illuminance;
+import;
+int;
+integer;
+matrix;
+matrix2;
+matrix3;
+normal;
+point;
+return;
+string;
+struct;
+typedef;
+union;
+vector;
+vector2;
+vector4;
+void;
+while;
+
+----------------------------------------------------
+
+[
+	["keyword", "break"], ["punctuation", ";"],
+	["keyword", "bsdf"], ["punctuation", ";"],
+	["keyword", "char"], ["punctuation", ";"],
+	["keyword", "color"], ["punctuation", ";"],
+	["keyword", "const"], ["punctuation", ";"],
+	["keyword", "continue"], ["punctuation", ";"],
+	["keyword", "do"], ["punctuation", ";"],
+	["keyword", "dict"], ["punctuation", ";"],
+	["keyword", "else"], ["punctuation", ";"],
+	["keyword", "export"], ["punctuation", ";"],
+	["keyword", "float"], ["punctuation", ";"],
+	["keyword", "for"], ["punctuation", ";"],
+	["keyword", "forpoints"], ["punctuation", ";"],
+	["keyword", "foreach"], ["punctuation", ";"],
+	["keyword", "gather"], ["punctuation", ";"],
+	["keyword", "hpoint"], ["punctuation", ";"],
+	["keyword", "if"], ["punctuation", ";"],
+	["keyword", "illuminance"], ["punctuation", ";"],
+	["keyword", "import"], ["punctuation", ";"],
+	["keyword", "int"], ["punctuation", ";"],
+	["keyword", "integer"], ["punctuation", ";"],
+	["keyword", "matrix"], ["punctuation", ";"],
+	["keyword", "matrix2"], ["punctuation", ";"],
+	["keyword", "matrix3"], ["punctuation", ";"],
+	["keyword", "normal"], ["punctuation", ";"],
+	["keyword", "point"], ["punctuation", ";"],
+	["keyword", "return"], ["punctuation", ";"],
+	["keyword", "string"], ["punctuation", ";"],
+	["keyword", "struct"], ["punctuation", ";"],
+	["keyword", "typedef"], ["punctuation", ";"],
+	["keyword", "union"], ["punctuation", ";"],
+	["keyword", "vector"], ["punctuation", ";"],
+	["keyword", "vector2"], ["punctuation", ";"],
+	["keyword", "vector4"], ["punctuation", ";"],
+	["keyword", "void"], ["punctuation", ";"],
+	["keyword", "while"], ["punctuation", ";"]
+]
+
+----------------------------------------------------
+
+Checks for all keywords.

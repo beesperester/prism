@@ -1,0 +1,34 @@
+class Foo
+interface bar
+extends Foo
+implements bar
+trait Foo
+
+----------------------------------------------------
+
+[
+	"class ",
+	["class-name", [
+		"Foo"
+	]],
+	"\r\ninterface ",
+	["class-name", [
+		"bar"
+	]],
+	"\r\nextends ",
+	["class-name", [
+		"Foo"
+	]],
+	"\r\nimplements ",
+	["class-name", [
+		"bar"
+	]],
+	"\r\ntrait ",
+	["class-name", [
+		"Foo"
+	]]
+]
+
+----------------------------------------------------
+
+Checks for class names.

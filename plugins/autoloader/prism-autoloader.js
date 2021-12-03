@@ -159,6 +159,7 @@
 		"vala": "clike",
 		"vbnet": "basic",
 		"velocity": "markup",
+		"vex": "clike",
 		"wiki": "markup",
 		"xeora": "markup",
 		"xml-doc": "markup",
